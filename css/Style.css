@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+}
+:root {
+    --logo-fontfamily:'Balsamiq Sans', cursive;
+    --heading-fontfamily:'Arvo', serif;
+    --logo-color:#303C6C;
+    --smalltext-font:'Roboto', sans-serif;
+    --main-color: rgb(0, 0, 0);
+    --pane-padding: 5px 42px;
+  }
+section{
+
+}
+button{
+    outline: 0;
+    border: 0;
+}
+button:focus{
+    outline: 0;
+    border: 0;
+}
+a.navbar-brand {
+    font-family: var(--logo-fontfamily);
+    font-size: 2rem;
+    font-weight: 700;
+    color: var(--logo-color);
+
+}
+ul li a.nav-link {
+    font-size: .9rem;
+    font-family: var(--smalltext-font);
+    font-weight: 600;
+}
+.login_btn {
+    text-decoration: none;
+    padding: 9px 31px;
+    /* border: 1px solid #000; */
+    background: #c050dd;
+    color: #fff;
+    font-weight: bold;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
+}
+.login_btn:hover{
+    color: #fff;
+}
+.submit_btn{
+
+}
+.mainbx_shadow{
+    box-shadow: 0 5px 30px rgb(0 22 84 / 10%);
+}
+.loginpage_sub{
+    border-radius: 5px;
+}
+.logindata_bx{
+    padding: 15px;
+}
+.login_txt {
+    color: #8ca3ec;
+    margin: 22px 0px 35px;
+    font-family: var(--heading-fontfamily);
+    font-weight: 700;
+    font-size: 30px;
+}
+input.form-control {
+    border-radius: 3px;
+    border: 0px;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px;
+}
+p{
+    color: #7a7a7a;
+}
+@media (min-width: 992px){
+    .navbar-expand-lg .navbar-nav {
+        flex-direction: row;
+        gap: 13px;
+    }
+}
